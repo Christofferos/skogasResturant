@@ -1,0 +1,38 @@
+// Widescreens
+@include mediaXl {
+  .menu-btn {
+    display: none;
+  }
+}
+
+// Desktops & Laptops
+@include mediaLg {
+  .menu-btn {
+    display: none;
+  }
+}
+
+// Tablets / Small Laptops
+@include mediaMd {
+  .menu-desktop {
+    display: none;
+  }
+  .small-heading {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    width: 100%; // FIx
+  }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Smartphones
+@include mediaSm {
+  .menu-desktop {
+    display: none;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
