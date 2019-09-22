@@ -36,9 +36,9 @@ $background-opacity: 0.8;
   }
   @if $show-about-image {
     &#bg-img-about {
-      background: $about-image;
-      background-attachment: fixed;
+      background: $about-image no-repeat 50% 50%;
       background-size: cover;
+      background-attachment: fixed;
 
       /* Sudo-element - puts in something that is not in the HTML - This is the overlay*/
       &:after {
