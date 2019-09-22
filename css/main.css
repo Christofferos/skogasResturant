@@ -177,7 +177,7 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.8); }
   body#bg-img-about {
-    background: url(../images/aboutUs.jpg) no-repeat 50% 50%;
+    background: url(../images/aboutUs2.jpg) no-repeat 50% 50%;
     background-size: cover;
     background-attachment: fixed;
     /* Sudo-element - puts in something that is not in the HTML - This is the overlay*/ }
