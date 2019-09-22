@@ -24,7 +24,7 @@ $background-opacity: 0.8;
       /* Sudo-element - puts in something that is not in the HTML - This is the overlay*/
       &:after {
         content: "";
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 100%;
