@@ -3,12 +3,18 @@
   .menu-btn {
     display: none;
   }
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
   .menu-btn {
     display: none;
+  }
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -17,11 +23,38 @@
   .menu-desktop {
     display: none;
   }
-  .small-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    width: 100%; // FIx
+  main {
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .small-heading {
+      margin-bottom: 2rem;
+      padding: 0.2rem 1rem;
+    }
   }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .about-info {
+    grid-template-columns: 1fr;
+  }
+
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -29,6 +62,10 @@
 
 // Smartphones
 @include mediaSm {
+  main#home h1 {
+    margin-top: 10vh;
+    font-size: 3rem;
+  }
   .menu-desktop {
     display: none;
   }
