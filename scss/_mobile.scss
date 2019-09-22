@@ -72,6 +72,13 @@
     margin-top: 10vh;
     font-size: 3rem;
   }
+  main#home h2 {
+    font-size: 1rem;
+    a::before {
+      content: "\A";
+      white-space: pre;
+    }
+  }
   .menu-desktop {
     display: none;
   }
