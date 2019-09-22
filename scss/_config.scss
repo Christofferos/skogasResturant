@@ -3,7 +3,7 @@ $secondary-color: orange; //eece1a
 $show-home-image: true;
 $show-about-image: true;
 $home-image: url(../images/resturant.jpeg);
-$about-image: url(../images/aboutUs.jpeg);
+$about-image: url(../images/aboutUs.jpg);
 $background-opacity: 0.8;
 
 @mixin easeOut {
@@ -37,14 +37,8 @@ $background-opacity: 0.8;
   @if $show-about-image {
     &#bg-img-about {
       background: $about-image;
-      background-repeat: no-repeat;
       background-attachment: fixed;
-      background-position: center;
       background-size: cover;
-      top: 0px;
-      left: 0px;
-      width: 100%;
-      height: 100%;
 
       /* Sudo-element - puts in something that is not in the HTML - This is the overlay*/
       &:after {
