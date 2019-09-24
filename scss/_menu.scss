@@ -8,11 +8,21 @@
   @include easeOut;
 }
 
+// Call Button
+.menu-call {
+  position: absolute;
+  z-index: 3;
+  left: 40px;
+  top: 32px;
+  cursor: pointer;
+  @include easeOut;
+}
+
 // Menu Button
 .menu-btn {
   position: absolute;
   z-index: 3;
-  right: 35px;
+  right: 33px;
   top: 35px;
   cursor: pointer;
   @include easeOut;

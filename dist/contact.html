@@ -10,6 +10,25 @@
       type="image/png"
       href="images/pizzaIcon.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+    <style>
+      #issMap {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        margin: auto;
+      }
+    </style>
     <script src="https://kit.fontawesome.com/dd01eeee16.js"></script>
     <link rel="stylesheet" href="css/main.css" />
     <title>Kontakta oss</title>
@@ -70,25 +89,38 @@
       <div class="boxes">
         <div id="span-email">
           <span class="text-secondary">Email: </span>
-          <a>pizza.skogas@gmail.com</a>
+          <br /><a href="mailto:pizza.skogas@gmail.com?subject=subject text"
+            >pizza.skogas@gmail.com</a
+          >
         </div>
         <div>
-          <span class="text-secondary">Telefon:</span> <a>08-771 17 80</a>
+          <span class="text-secondary">Telefon:</span> <br /><a
+            href="tel:08-771 17 80"
+            >08-771 17 80</a
+          >
         </div>
         <div>
           <span class="text-secondary">Address:</span>
-          <a
+          <br /><a
             target="none"
             href="https://www.google.com/maps/place/Skog%C3%A5splan+9,+142+30+Skog%C3%A5s/data=!4m2!3m1!1s0x465f7be269afbb5f:0xdb996a87ecff0e1e?sa=X&ved=2ahUKEwj_8PXf8eLkAhUttIsKHS_TBjIQ8gEwAHoECAoQAQ"
             >Skogåsplan 9, 142 30 Skogås</a
           >
         </div>
       </div>
+      <br />
+      <a
+        target="none"
+        href="https://www.google.com/maps/place/Skog%C3%A5splan+9,+142+30+Skog%C3%A5s/data=!4m2!3m1!1s0x465f7be269afbb5f:0xdb996a87ecff0e1e?sa=X&ved=2ahUKEwj_8PXf8eLkAhUttIsKHS_TBjIQ8gEwAHoECAoQAQ"
+      >
+        <img src="images/locationImage.png" alt="Location" />
+      </a>
+
       <h2 class="sm-heading">Öppettider</h2>
       <h3 class="text-secondary">
-        Måndag: 10.30-21 <br />Tisdag: 10.30-21 <br />Onsdag: 10.30-21
-        <br />Torsdag: 10.30-21 <br />Fredag: 10.30-21 <br />Lördag: 11.00-21
-        <br />Söndag: 11.00-21
+        Måndag: 10.30-21:00 <br />Tisdag: 10.30-21:00 <br />Onsdag: 10.30-21:00
+        <br />Torsdag: 10.30-21:00 <br />Fredag: 10.30-21:00 <br />Lördag:
+        11.00-21:00 <br />Söndag: 11.00-21:00
       </h3>
     </main>
 
