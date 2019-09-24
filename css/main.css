@@ -369,16 +369,18 @@ main {
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh;
+    margin-top: 2vh;
     font-size: 3rem; }
   main#about h1 {
-    margin-top: 10vh;
+    margin-top: 2vh;
     font-size: 3rem; }
+  main#about p {
+    font-size: 1.1rem; }
   main#work h1 {
-    margin-top: 10vh;
+    margin-top: 2vh;
     font-size: 3rem; }
   main#contact h1 {
-    margin-top: 10vh;
+    margin-top: 2vh;
     font-size: 3rem; }
   main#home h2 {
     font-size: 1rem; }
