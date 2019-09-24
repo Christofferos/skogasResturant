@@ -11,6 +11,8 @@
   z-index: 3;
   left: 40px;
   top: 32px;
+  width: 28px;
+  height: 24px;
   cursor: pointer;
   transition: all 0.5s ease-out; }
 
