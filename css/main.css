@@ -261,6 +261,20 @@ main {
     overflow: hidden; }
     main#contact h1 {
       margin-top: 5vh; }
+  main#food {
+    overflow: hidden; }
+    main#food h1 {
+      margin-top: 5vh; }
+    main#food span {
+      color: white; }
+    main#food ul {
+      padding: 0; }
+    main#food li {
+      list-style: none; }
+    main#food .small-heading {
+      font-weight: 600;
+      margin-top: 1.5rem;
+      margin-bottom: 0rem; }
 
 /* ABOUT page */
 .about-info {
@@ -384,6 +398,9 @@ main {
     margin-top: 2vh;
     font-size: 3rem; }
   main#contact h1 {
+    margin-top: 2vh;
+    font-size: 3rem; }
+  main#food h1 {
     margin-top: 2vh;
     font-size: 3rem; }
   main#home h2 {
