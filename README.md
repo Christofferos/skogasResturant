@@ -1,5 +1,6 @@
 # skogasResturant
-A static website for a local client.
+A static website for a local client. Created with Node.js and SASS.
+<br> Link: https://christofferos.github.io/skogasResturant/index.html
 
 #### Preview images
 
